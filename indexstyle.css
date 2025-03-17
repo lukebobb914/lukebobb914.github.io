@@ -1,0 +1,33 @@
+.header {
+    background-image: url('img/img2.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 100vh; /* make height 100% of veiw port  */
+    display: flex; 
+    flex-direction: column; /* stack vertically */ 
+    align-items: center; /* Center vertically  */
+    justify-content: center; /* Center horizontally  */
+}
+
+.nav-link {
+ font-size: 1.25rem; 
+}
+
+.container {
+    max-width: 80vw; 
+    margin: 0 auto; /* center */
+}
+
+.portfolio-header {
+    text-align: center;
+}
+
+.card-img-top {
+    height: 400px; 
+    object-fit: cover; /* force image to fit to img cover */
+}
+
+.card-body {
+    min-height: 160px;
+}
